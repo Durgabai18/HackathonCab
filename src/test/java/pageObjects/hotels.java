@@ -1,13 +1,17 @@
 package pageObjects;
  
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
  
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import utilities.ExcelUtils;
  
 public class hotels extends basePage {
+	String filepath= "C:\\Users\\2303483\\eclipse-workspace\\HackathonCab\\TestData\\Hackathon.xlsx";
  
 	public hotels(WebDriver driver) {
 		super(driver);
@@ -33,15 +37,32 @@ public class hotels extends basePage {
 	// Actions
 	public void clkHotels() {
 		clkHotels.click();
+	}
+	
+	public void clkGuests() {
 		clkGuests.click();
+	}
+	
+	public void clkadults() {
 		clkadults.click();
-		List<String> count=new ArrayList();
+	}
+	
+	public void getcount() throws IOException {
+		List<String> count=new ArrayList<>();
 		for (WebElement k : getcount) {
+			int q =3;
 			count.add(k.getText());
+			ExcelUtils.setcelldata(filepath, "Total Adults", 5, q, k.getText());
+			q++;
 		}
-		System.out.println("Number of Adults allowed are: "+count.size());
-		System.out.println("The list: " +count);
- 
+		//ExcelUtils.setcelldata(filePath, "Sheet1", 1, 2, ((WebElement) count).getText());
+		System.out.println("Hotels Page");
+		System.out.println("Number of Adults allowed are: " + count.size());
+		System.out.println("The list: " + count);
+		System.out.println("Third Testcase passed");
+		System.out.println("==================");
+		System.out.println("Project executed successfully");
+		 
 	}
  
 }

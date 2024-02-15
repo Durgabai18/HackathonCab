@@ -1,0 +1,66 @@
+10:02:28.988 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+10:02:33.031 [main] INFO  testCases.TC_003 - -----Capture the count and it is displayed------
+10:02:33.429 [main] INFO  testCases.TC_003 - Finished TC3
+14:12:04.605 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+14:12:17.123 [main] INFO  testCases.TC_002 - -----Clicked on giftcard-----
+14:12:17.497 [main] INFO  testCases.TC_002 - -----Random sender name is created-----
+14:12:17.972 [main] INFO  testCases.TC_002 - -----Random phone number is created-----
+14:12:18.427 [main] INFO  testCases.TC_002 - -----Random email id  is created-----
+14:12:21.382 [main] INFO  testCases.TC_002 - -----Random clicked on buy now and captured error message-----
+14:12:21.905 [main] INFO  testCases.TC_002 - Finished TC2
+14:20:41.417 [main] INFO  testCases.TC_001 - Starting of TC1
+14:20:41.424 [main] INFO  testCases.TC_001 - Application log starts
+14:20:42.697 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+14:20:43.388 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+14:20:43.960 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+14:20:44.592 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+14:20:45.886 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+14:20:46.359 [main] INFO  testCases.TC_001 - -----date is selected-----
+14:20:46.902 [main] INFO  testCases.TC_001 - -----Selected hour as 6-----
+14:20:47.519 [main] INFO  testCases.TC_001 - -----selected minute as 30-----
+14:20:47.870 [main] INFO  testCases.TC_001 - -----Selected as AM-----
+14:20:48.116 [main] INFO  testCases.TC_001 - -----clicked on Apply-----
+14:20:52.509 [main] INFO  testCases.TC_001 - -----Clicked on Search-----
+14:20:53.765 [main] INFO  testCases.TC_001 - -----clicked on SUV
+14:20:54.021 [main] INFO  testCases.TC_001 - -----clicked on filter-----
+14:20:54.278 [main] INFO  testCases.TC_001 - -----selected on lowest to highest-----
+14:20:54.380 [main] INFO  testCases.TC_001 - -----carlist is displayed-----
+14:20:56.142 [main] INFO  testCases.TC_001 - -----Lowest price is displayed-----
+14:20:56.527 [main] INFO  testCases.TC_001 - -----finished TC1-----
+14:21:32.125 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+14:21:44.192 [main] INFO  testCases.TC_002 - -----Clicked on giftcard-----
+14:21:44.407 [main] INFO  testCases.TC_002 - -----Random sender name is created-----
+14:21:44.750 [main] INFO  testCases.TC_002 - -----Random phone number is created-----
+14:21:45.066 [main] INFO  testCases.TC_002 - -----Random email id  is created-----
+14:21:45.716 [main] INFO  testCases.TC_002 - -----Random clicked on buy now and captured error message-----
+14:21:46.059 [main] INFO  testCases.TC_002 - Finished TC2
+14:22:21.389 [main] INFO  testCases.TC_003 - Starting TC3
+14:22:22.706 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+14:22:23.619 [main] INFO  testCases.TC_003 - -----Clicked on Guests and rooms------
+14:22:24.220 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+14:22:29.147 [main] INFO  testCases.TC_003 - -----Capture the count and it is displayed------
+14:22:29.589 [main] INFO  testCases.TC_003 - Finished TC3
+16:35:46.688 [main] INFO  testCases.TC_001 - Starting of TC1
+16:35:46.695 [main] INFO  testCases.TC_001 - Application log starts
+16:35:47.841 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+16:35:48.335 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+16:35:48.963 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+16:35:49.331 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+16:35:50.111 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+16:35:50.224 [main] INFO  testCases.TC_001 - -----date is selected-----
+16:35:50.472 [main] INFO  testCases.TC_001 - -----Selected hour as 6-----
+16:35:50.617 [main] INFO  testCases.TC_001 - -----selected minute as 30-----
+16:35:50.743 [main] INFO  testCases.TC_001 - -----Selected as AM-----
+16:35:50.861 [main] INFO  testCases.TC_001 - -----clicked on Apply-----
+16:35:54.285 [main] INFO  testCases.TC_001 - -----Clicked on Search-----
+16:36:00.522 [main] INFO  testCases.TC_001 - -----clicked on SUV
+16:36:00.638 [main] INFO  testCases.TC_001 - -----clicked on filter-----
+16:36:00.773 [main] INFO  testCases.TC_001 - -----selected on lowest to highest-----
+16:36:00.840 [main] INFO  testCases.TC_001 - -----carlist is displayed-----
+16:36:01.953 [main] INFO  testCases.TC_001 - -----Lowest price is displayed-----
+16:36:02.276 [main] INFO  testCases.TC_001 - -----finished TC1-----
+16:38:27.355 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+16:38:39.051 [main] INFO  testCases.TC_002 - -----Clicked on giftcard-----
+16:38:39.227 [main] INFO  testCases.TC_002 - -----Random sender name is created-----
+16:38:39.472 [main] INFO  testCases.TC_002 - -----Random phone number is created-----
+16:38:39.746 [main] INFO  testCases.TC_002 - -----Random email id  is created-----

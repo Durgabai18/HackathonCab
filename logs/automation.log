@@ -1,0 +1,14 @@
+16:38:41.845 [main] INFO  testCases.TC_002 - -----Random clicked on buy now and captured error message-----
+16:38:42.120 [main] INFO  testCases.TC_002 - Finished TC2
+16:39:26.552 [main] INFO  testCases.TC_003 - Starting TC3
+16:39:27.678 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+16:39:28.155 [main] INFO  testCases.TC_003 - -----Clicked on Guests and rooms------
+16:39:28.256 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+16:39:32.417 [main] INFO  testCases.TC_003 - -----Capture the count and it is displayed------
+16:39:32.806 [main] INFO  testCases.TC_003 - Finished TC3
+17:31:51.786 [main] INFO  testCases.TC_003 - Starting TC3
+17:31:52.952 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+17:31:53.497 [main] INFO  testCases.TC_003 - -----Clicked on Guests and rooms------
+17:31:53.602 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+17:31:58.261 [main] INFO  testCases.TC_003 - -----Capture the count and it is displayed------
+17:31:58.742 [main] INFO  testCases.TC_003 - Finished TC3

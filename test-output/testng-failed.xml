@@ -15,13 +15,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_001 -->
-      <class name="testCases.TC_002">
-        <methods>
-          <include name="teardown"/>
-          <include name="secondcase"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002 -->
       <class name="testCases.TC_003">
         <methods>
           <include name="teardown"/>

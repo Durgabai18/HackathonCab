@@ -19,13 +19,9 @@
 						<!--<suiteXmlFiles>master.xml</suiteXmlFiles>-->
 						<suiteXmlFiles>grouping.xml</suiteXmlFiles>
 					</configuration>
-
 				</plugin>
-
 			</plugins>
-
 		</pluginManagement>
-
 	</build>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

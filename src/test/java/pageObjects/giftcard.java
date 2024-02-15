@@ -4,14 +4,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
  
-import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
  
 public class giftcard extends basePage {
- 
+	
+	String filePath = "C:\\Users\\2303483\\eclipse-workspace\\HackathonCab\\TestData\\Hackathon.xlsx";
+	
 	public giftcard(WebDriver driver) {
 		super(driver);
  
@@ -34,25 +35,7 @@ public class giftcard extends basePage {
 	@FindBy(xpath = "//div[@class='deliver__content']")
 	WebElement box;
  
-	// For entering sender name
-	@FindBy(xpath = "//input[@name='senderName']")
-	WebElement sndrname;
- 
-	// For entering mobile number
-	@FindBy(xpath = "//input[@name='senderMobileNo']")
-	WebElement etrphno;
- 
-	// For entering mail
-	@FindBy(xpath = "//input[@name='senderEmailId']")
-	WebElement etrmail;
- 
-	// For clicking buy now
-	@FindBy(xpath = "//button[normalize-space()='BUY NOW']")
-	WebElement clkbuynow;
- 
-	// For capturing text of wrong email address
-	@FindBy(xpath = "//p[normalize-space()='Please enter a valid Email id.']")
-	WebElement errmsg;
+	
  
 	// Actions
 	public void clkgift() throws InterruptedException {
@@ -94,28 +77,6 @@ public class giftcard extends basePage {
  
 		}
  
-	}
- 
-	public void sndrname() {
- 
-		String Name = RandomStringUtils.randomAlphabetic(5);
-		sndrname.sendKeys(Name);
-	}
- 
-	public void etrphno() {
-		String No = RandomStringUtils.randomNumeric(10);
-		etrphno.sendKeys(No);
-	}
- 
-	public void etrmail() {
-		String Mail = RandomStringUtils.randomAlphabetic(5) + "@gmail";
-		etrmail.sendKeys(Mail);
-	}
- 
-	public void clkbuynow() {
-		clkbuynow.click();
-		System.out.println("Buy now clicked");
-		System.out.println("Messageg after invalid mail:" + errmsg.getText());
 	}
  
 }

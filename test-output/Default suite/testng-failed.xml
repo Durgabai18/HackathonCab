@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.TC_001">
         <methods>
+          <include name="teardown"/>
           <include name="SearchServices"/>
           <include name="setup"/>
         </methods>

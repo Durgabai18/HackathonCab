@@ -1,7 +1,7 @@
 package testBase;
 
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -11,6 +11,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -28,14 +29,14 @@ public class baseclass {
 	public Properties p;
 	public Logger logger;
 
-	@BeforeClass
+	@BeforeClass(groups = { "cabs", "giftcards", "hotels" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException, InterruptedException {
 
+		FileReader file = new FileReader(
+				"C:\\Users\\2303483\\eclipse-workspace\\HackathonCab\\src\\test\\resources\\config.properties");
 		// Loading properties file
 		p = new Properties();
-		FileInputStream file = new FileInputStream(
-				"C:\\Users\\2303483\\eclipse-workspace\\HackathonCab\\src\\test\\resources\\config.properties");
 		p.load(file);
 
 		// Loading log4j file
@@ -131,7 +132,10 @@ public class baseclass {
 		driver.manage().window().maximize();
 
 		driver.get(p.getProperty("PageURL"));
-		Thread.sleep(10000);
+		driver.switchTo().frame("webklipper-publisher-widget-container-notification-frame");
+		driver.findElement(By.xpath("//*[@id='webklipper-publisher-widget-container-notification-close-div']/i"))
+				.click();
+		driver.switchTo().defaultContent();
 
 	}
 
@@ -140,14 +144,14 @@ public class baseclass {
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String targetFilePath = System.getProperty("user.dir") + "\\screenshot\\" + tname + "_" + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
 		sourceFile.renameTo(targetFile);
 		return targetFilePath;
 
 	}
 
-	@AfterClass
+	@AfterClass(groups = { "cabs", "giftcards", "hotels" })
 	public void teardown() throws InterruptedException {
 		Thread.sleep(10000);
 		driver.quit();

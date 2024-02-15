@@ -1,7 +1,5 @@
 package pageObjects;
 
-import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,7 +36,7 @@ public class Homepage extends basePage {
 	@FindBy(xpath = "//span[normalize-space()='Manali, Himachal Pradesh, India']")
 	WebElement entermanali;
 
-	// For selecting the date 9th Mar 2024
+	// For selecting the date 7th Mar 2024
 	@FindBy(xpath = "//div[@class='DayPicker-Month'][2]//div[@class='DayPicker-Week'][2]//div[2]")
 	WebElement selectdate;
 
@@ -61,29 +59,6 @@ public class Homepage extends basePage {
 	// For clicking on Search button
 	@FindBy(xpath = "//a[normalize-space()='Search']")
 	WebElement clicksearch;
-
-	// For selecting SUV
-	@FindBy(xpath = "//label[normalize-space()='SUV']")
-	WebElement clicksuv;
-
-	// For clicking filters
-	@FindBy(xpath = "//span[@class='cursorPointer dodgerBlueColor']")
-	WebElement clickfilter;
-
-	// For selecting price lowest to highest
-	@FindBy(xpath = "//div[@class='makeAbsolute sortOptionsPopup makeFlex column']//div[1]//p[1]")
-	WebElement selectlow;
-
-	// Get all the details
-	@FindBy(xpath = "//*[@id=\"List\"]")
-	WebElement carlist;
-
-	@FindBy(xpath = "//span[@class='latoBlack font20 appendRight5']")
-	List<WebElement> carlistAll;
-
-	@FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/p[1]")
-	WebElement lowestprice;
-	// div[@id='List']//div[1]//div[1]//div[3]//div[1]//div[2]//div[1]//p[1]
 
 	// Action Methods
 
@@ -132,29 +107,5 @@ public class Homepage extends basePage {
 		clicksearch.click();
 	}
 
-	public void clicksuv() {
-		clicksuv.click();
-	}
-
-	public void clickfilter() {
-		clickfilter.click();
-	}
-
-	public void selectlow() {
-		selectlow.click();
-	}
-
-	public void carlist() {
-		for (WebElement i : carlistAll) {
-			System.out.println(i.getText());
-
-		}
-
-	}
-
-	public void lowestprice() {
-		// fluentWait(lowestprice);
-		System.out.println("lowest price is :" + lowestprice.getText());
-	}
 
 }

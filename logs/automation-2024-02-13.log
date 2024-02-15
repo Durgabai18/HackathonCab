@@ -1,0 +1,70 @@
+17:01:29.731 [main] INFO  testCases.TC_001 - -----carlist is displayed-----
+17:01:31.667 [main] INFO  testCases.TC_001 - -----Lowest price is displayed-----
+17:01:32.115 [main] INFO  testCases.TC_001 - -----finished TC1-----
+17:02:08.222 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+17:02:20.287 [main] INFO  testCases.TC_002 - -----Clicked on giftcard-----
+17:02:20.509 [main] INFO  testCases.TC_002 - -----Random sender name is created-----
+17:02:20.867 [main] INFO  testCases.TC_002 - -----Random phone number is created-----
+17:02:21.193 [main] INFO  testCases.TC_002 - -----Random email id  is created-----
+17:02:21.902 [main] INFO  testCases.TC_002 - -----Random clicked on buy now and captured error message-----
+17:02:22.202 [main] INFO  testCases.TC_002 - Finished TC2
+17:02:54.808 [main] INFO  testCases.TC_003 - Starting TC3
+17:02:56.152 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+17:02:56.974 [main] INFO  testCases.TC_003 - -----Clicked on Guests and rooms------
+17:02:57.162 [main] INFO  testCases.TC_003 - -----Clicked on hotels------
+17:03:01.493 [main] INFO  testCases.TC_003 - -----Capture the count and it is displayed------
+17:03:01.900 [main] INFO  testCases.TC_003 - Finished TC3
+17:24:02.251 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+17:24:40.803 [main] INFO  testCases.TC_002 - -----Clicked on giftcard-----
+17:24:50.883 [main] ERROR testCases.TC_002 - test failed
+17:27:27.397 [main] INFO  testCases.TC_002 - -----Starting TC2-----
+17:27:37.522 [main] ERROR testCases.TC_002 - test failed
+17:30:19.201 [main] INFO  testCases.TC_001 - Starting of TC1
+17:30:19.206 [main] INFO  testCases.TC_001 - Application log starts
+17:30:20.469 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:30:26.393 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+17:30:26.943 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+17:30:27.567 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+17:30:28.821 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+17:30:29.189 [main] INFO  testCases.TC_001 - -----date is selected-----
+17:30:30.465 [main] ERROR testCases.TC_001 - test failed..
+17:32:23.371 [main] INFO  testCases.TC_001 - Starting of TC1
+17:32:23.379 [main] INFO  testCases.TC_001 - Application log starts
+17:32:24.689 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:32:25.493 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+17:32:26.160 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+17:32:26.750 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+17:32:27.764 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+17:32:27.973 [main] INFO  testCases.TC_001 - -----date is selected-----
+17:32:29.177 [main] ERROR testCases.TC_001 - test failed..
+17:35:30.956 [main] INFO  testCases.TC_001 - Starting of TC1
+17:35:30.963 [main] INFO  testCases.TC_001 - Application log starts
+17:35:32.250 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:35:33.557 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+17:35:34.202 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+17:35:34.824 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+17:35:35.992 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+17:35:36.301 [main] INFO  testCases.TC_001 - -----date is selected-----
+17:35:37.555 [main] ERROR testCases.TC_001 - test failed..
+17:40:22.604 [main] INFO  testCases.TC_001 - Starting of TC1
+17:40:22.611 [main] INFO  testCases.TC_001 - Application log starts
+17:40:23.866 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:40:25.254 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+17:40:26.006 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+17:40:26.679 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+17:40:27.656 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+17:40:28.007 [main] INFO  testCases.TC_001 - -----date is selected-----
+17:40:29.370 [main] ERROR testCases.TC_001 - test failed..
+17:44:27.837 [main] INFO  testCases.TC_001 - Starting of TC1
+17:44:27.847 [main] INFO  testCases.TC_001 - Application log starts
+17:44:29.094 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:44:29.855 [main] INFO  testCases.TC_001 - -----Clicked on from-----
+17:44:30.572 [main] INFO  testCases.TC_001 - -----Entered as Delhi-----
+17:44:31.136 [main] INFO  testCases.TC_001 - -----Clicked on to-----
+17:44:31.975 [main] INFO  testCases.TC_001 - -----Entered as Manali,Himachal Pradesh-----
+17:44:32.248 [main] INFO  testCases.TC_001 - -----date is selected-----
+17:44:33.412 [main] ERROR testCases.TC_001 - test failed..
+17:48:41.435 [main] INFO  testCases.TC_001 - Starting of TC1
+17:48:41.446 [main] INFO  testCases.TC_001 - Application log starts
+17:48:42.692 [main] INFO  testCases.TC_001 - -----Clicked on cabs-----
+17:48:43.416 [main] INFO  testCases.TC_001 - -----Clicked on from-----
